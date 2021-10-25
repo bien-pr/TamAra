@@ -119,14 +119,120 @@
         "notiTime": 30
       },
       {
-        "title": "자혜병원",
+        "title": "기차역(Image 360 테스트)",
         "description": "",
         "trigger": {
           "type": {
             "location": {
-              "latitude": 37.5801716,
-              "longitude": 126.9658372,
+              "latitude": 37.5804929,
+              "longitude": 126.9687866,
               "range": 10
+            },
+            "beacon": {
+              "uuid": "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0",
+              "minor": 1001,
+              "accuracy": 2
+            }
+          }
+        },
+        "contents": [
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "nan/03N.mp3",
+              "autoplay": true
+            },
+            "id": 31
+          },
+          {
+            "id": 32,
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "msg_receive.mp3",
+              "autoplay": true
+            }
+          },
+          {
+            "id": 33,
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            }
+          },
+          {
+            "id": 34,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "임무 셋.\n블라지미르, 상해로 가는 요원 니나와 가방을 교환해 주시오.\n가방 교환 장소는 3번 플랫폼 중앙.\n갈색 가방을 들고 서 있는 사람을 찾아 암호구로 신원을 확인한 후에 가방을 교환하시오."
+              }
+            }
+          },
+          {
+            "id": 35,
+            "message": {
+              "delay": 1000,
+              "txt_const": {
+                "ko": "당신의 암호구는 ‘블라지미르’\n상대의 암호구는 ‘니나’\n암호구를 잊지 마시오. ‘블라지미르’ - ‘니나’\n잠깐, 가기 전에 먼저 카메라를 열어 거기 액자 속 그림을 비추어 주시오.\n그 그림이 기차역에서 무엇을 해야할 지 당신에게 보여 줄 것이오."
+              }
+            }
+          },
+          {
+            "button": {
+              "delay": 1000,
+              "option": {
+                "ko": "이미지 360"
+              },
+              "action": {
+                "goto360Image": "test"
+              }
+            },
+            "id": 36,
+            "hold": true
+          },
+          {
+            "audio": {
+              "delay": 3000,
+              "sourcelink": "map_open.mp3",
+              "autoplay": true
+            },
+            "id": 37
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 38
+          },
+          {
+            "button": {
+              "delay": 0,
+              "option": {
+                "ko": "지도 보기"
+              },
+              "action": {
+                "gotoMap": "spot_04"
+              }
+            },
+            "id": 39
+          }
+        ]
+      },
+      {
+        "title": "자혜병원(AR 카메라 테스트)",
+        "description": "",
+        "trigger": {
+          "type": {
+            "location": {
+              "latitude": 37.53645,
+              "longitude": 126.89726,
+              "range": 10
+            },
+            "beacon": {
+              "uuid": "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0",
+              "minor": 1001,
+              "accuracy": 2
             }
           }
         },
