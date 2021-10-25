@@ -45,7 +45,7 @@
     ],
     "dialogs": [
       {
-        "title": "0906.21 시작, 난의 탄생기",
+        "title": "0906.21 시작, 난의 탄생기_",
         "description": "intro",
         "trigger": {
           "type": {
