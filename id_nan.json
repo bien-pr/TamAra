@@ -1,0 +1,1567 @@
+{
+  "data": {
+    "file_info": {
+      "title": "structure_description",
+      "created_date": "2021.09.06",
+      "description": "test",
+      "version": 21
+    },
+    "sources": [
+      {
+        "name": "hospital",
+        "sourcelink": "HospitalResize.mp4",
+        "sourcetype": "video"
+      },
+      {
+        "name": "station",
+        "sourcelink": "StationResize.mp4",
+        "sourcetype": "video"
+      },
+      {
+        "name": "folding-0",
+        "sourcelink": "1ScreenResize.mp4",
+        "sourcetype": "video"
+      },
+      {
+        "name": "folding-1",
+        "sourcelink": "2ScreenResize.mp4",
+        "sourcetype": "video"
+      },
+      {
+        "name": "folding-2",
+        "sourcelink": "3ScreenResize.mp4",
+        "sourcetype": "video"
+      },
+      {
+        "name": "folding-3",
+        "sourcelink": "4ScreenResize.mp4",
+        "sourcetype": "video"
+      },
+      {
+        "name": "store",
+        "sourcelink": "nanzo",
+        "sourcetype": "bundle"
+      }
+    ],
+    "dialogs": [
+      {
+        "title": "0906.21 시작, 난의 탄생기",
+        "description": "intro",
+        "trigger": {
+          "type": {
+            "time": {
+              "delay": 100
+            }
+          }
+        },
+        "contents": [
+          {
+            "audio": {
+              "delay": 10,
+              "sourcelink": "msg_receive.mp3",
+              "autoplay": true
+            },
+            "id": 0
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 1
+          },
+          {
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "당신의 코드명은 블라지미르.\n블라지미르, 귀에 리시버를 꽂고 곧 시작될 라디오 소리에 주의를 기울여 주시오.\n그리고 지도에 표시된 장소로 이동해 다음 메세지를 전달 받으시오."
+              }
+            },
+            "id": 2
+          },
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "map_open.mp3",
+              "autoplay": true
+            },
+            "id": 3
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 4
+          },
+          {
+            "id": 5,
+            "button": {
+              "delay": 0,
+              "option": {
+                "ko": "지도 보기"
+              },
+              "action": {
+                "gotoMap": "spot_01"
+              }
+            }
+          },
+          {
+            "id": 6,
+            "audio": {
+              "delay": 3000,
+              "sourcelink": "nan/test_001.mp3",
+              "autoplay": true,
+              "noti": true
+            }
+          }
+        ],
+        "notiTime": 30
+      },
+      {
+        "title": "자혜병원",
+        "description": "",
+        "trigger": {
+          "type": {
+            "location": {
+              "latitude": 37.5801716,
+              "longitude": 126.9658372,
+              "range": 10
+            }
+          }
+        },
+        "contents": [
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "msg_receive.mp3",
+              "autoplay": true
+            },
+            "id": 47
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 48
+          },
+          {
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "블라지미르, 그 자를 잘 뒤쫓고 있소? \n 카메라를 열고 앞에 보이는 액자의 그림을 비추어 보시오.\n 당신이 오기 전 누가 그곳을 들렀는 지 볼 수 있을 것이오."
+              }
+            },
+            "id": 49
+          },
+          {
+            "audio": {
+              "delay": 2000,
+              "sourcelink": "nan/05N.mp3",
+              "autoplay": true
+            },
+            "id": 50
+          },
+          {
+            "vibrate": {
+              "delay": 5000,
+              "autoplay": true
+            },
+            "id": 51
+          },
+          {
+            "id": 52,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "블라지미르, 카메라를 열고 앞에 보이는 액자의 그림을 비추어 보시오.\n 당신이 오기 전 누가 그곳을 들렀는 지 볼 수 있을 것이오."
+              }
+            }
+          },
+          {
+            "id": 53,
+            "button": {
+              "delay": 1000,
+              "option": {
+                "ko": "카메라 열기"
+              },
+              "action": {
+                "gotoCamera": "hospital"
+              }
+            },
+            "hold": true
+          },
+          {
+            "message": {
+              "delay": 300,
+              "txt_const": {
+                "ko": "그 자를 쫓아가 주시오.\n 신분이 노출되지 않게 조용히 뒤를 밟아야 하오.\n 비둘기처럼 평범하고 눈에 띄지 않게.\n 있는 듯 없는 듯 주변을 서성거려야 한다는 것을 잊지 마시길. "
+              }
+            },
+            "id": 54
+          },
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "map_open.mp3",
+              "autoplay": true
+            },
+            "id": 55
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 56
+          },
+          {
+            "button": {
+              "delay": 0,
+              "option": {
+                "ko": "지도 보기"
+              },
+              "action": {
+                "gotoMap": "spot_06"
+              }
+            },
+            "id": 57
+          }
+        ]
+      },
+      {
+        "title": "비콘테스트",
+        "description": "intro",
+        "trigger": {
+          "type": {
+            "location": {
+              "latitude": 37.536398,
+              "longitude": 126.8973,
+              "range": 10
+            },
+            "beacon": {
+              "uuid": "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0",
+              "minor": 1001,
+              "accuracy": 2
+            }
+          }
+        },
+        "contents": [
+          {
+            "audio": {
+              "delay": 10,
+              "sourcelink": "msg_receive.mp3",
+              "autoplay": true
+            },
+            "id": 0
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 1
+          },
+          {
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "당신의 코드명은 블라지미르.\n블라지미르, 귀에 리시버를 꽂고 곧 시작될 라디오 소리에 주의를 기울여 주시오.\n그리고 지도에 표시된 장소로 이동해 다음 메세지를 전달 받으시오."
+              }
+            },
+            "id": 2
+          },
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "map_open.mp3",
+              "autoplay": true
+            },
+            "id": 3
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 4
+          },
+          {
+            "button": {
+              "delay": 0,
+              "option": {
+                "ko": "지도 보기"
+              },
+              "action": {
+                "gotoMap": "spot_01"
+              }
+            },
+            "id": 5
+          },
+          {
+            "audio": {
+              "delay": 3000,
+              "sourcelink": "nan/00N.mp3",
+              "autoplay": true
+            },
+            "id": 6
+          }
+        ],
+        "notiTime": 60
+      },
+      {
+        "title": "난과 아버지",
+        "description": "",
+        "trigger": {
+          "type": {
+            "location": {
+              "latitude": 37.577324,
+              "longitude": 126.970962,
+              "range": 10
+            }
+          }
+        },
+        "contents": [
+          {
+            "audio": {
+              "delay": 0,
+              "sourcelink": "msg_receive.mp3",
+              "autoplay": true
+            },
+            "id": 7
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 8
+          },
+          {
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "안녕하시오 블라지미르.\n\n새로운 임무의 작전명은 ‘골루비’.\n노서아(러시아) 말로 ‘비둘기’라는 뜻이오.\n이번 임무에서 당신은 비둘기처럼 무엇인가를 전달해 주면 된다오.\n\n블라지미르, 다음 지점으로 이동하여 가방을 전달 받으시오.\n중요한 물건이 들어있는 가방이니 조심 하시오."
+              }
+            },
+            "id": 9
+          },
+          {
+            "id": 10,
+            "audio": {
+              "delay": 5000,
+              "sourcelink": "map_open.mp3",
+              "autoplay": true
+            }
+          },
+          {
+            "id": 11,
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            }
+          },
+          {
+            "id": 12,
+            "button": {
+              "delay": 0,
+              "option": {
+                "ko": "지도 보기"
+              },
+              "action": {
+                "gotoMap": "spot_02"
+              }
+            }
+          },
+          {
+            "id": 13,
+            "audio": {
+              "delay": 3000,
+              "sourcelink": "nan/01N.mp3",
+              "autoplay": true
+            }
+          }
+        ]
+      },
+      {
+        "title": "낙랑파라",
+        "description": "",
+        "trigger": {
+          "type": {
+            "location": {
+              "latitude": 37.577707,
+              "longitude": 126.970862,
+              "range": 10
+            }
+          }
+        },
+        "contents": [
+          {
+            "audio": {
+              "delay": 500,
+              "sourcelink": "msg_receive.mp3",
+              "autoplay": true
+            },
+            "id": 14
+          },
+          {
+            "id": 15,
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            }
+          },
+          {
+            "id": 16,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "작전명 ‘골루비’ -\n"
+              }
+            }
+          },
+          {
+            "message": {
+              "delay": 1000,
+              "txt_const": {
+                "ko": "당신을 기다리는 우리 동지 한 명을 만났소? \n 그에게서 가방을 건네 받았으면 ‘성공’ 이라는 메세지를 보내 주시오.\n 만약 가방을 전달 받는 것에 실패하면 ‘실패’라고 알려주고."
+              }
+            },
+            "id": 17
+          },
+          {
+            "id": 18,
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "성공",
+                  "action": {
+                    "gotoContent": 25
+                  }
+                },
+                {
+                  "keyword": "실패",
+                  "action": {
+                    "gotoContent": 19
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 21
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": 19,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "가방을 든 우리 동지를 아직 못찾았소?\n 눈에 띄지 않게 숨어 있을 지 모르니 주변을 잘 살펴보고,\n 가방을 받으면 '성공'이라고 알려주시오."
+              }
+            }
+          },
+          {
+            "id": 20,
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "성공",
+                  "action": {
+                    "gotoContent": 25
+                  }
+                },
+                {
+                  "keyword": "실패",
+                  "action": {
+                    "gotoContent": 21
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 21
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": 21,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "주변에 가방을 들고 있는 사람을 찾아 보시오.\n 그를 찾아 가방을 받으면 '성공' 메세지를 입력해 주시오."
+              }
+            }
+          },
+          {
+            "id": 22,
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "성공",
+                  "action": {
+                    "gotoContent": 25
+                  }
+                },
+                {
+                  "keyword": "실패",
+                  "action": {
+                    "gotoContent": 21
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 23
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": 23,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "무슨 소리요? ‘성공’ 이요, 아니면 ‘실패’ 한 거요? 답은 저 두가지 중에 하나로 해 주시오."
+              }
+            }
+          },
+          {
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "성공",
+                  "action": {
+                    "gotoContent": 25
+                  }
+                },
+                {
+                  "keyword": "실패",
+                  "action": {
+                    "gotoContent": 21
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 23
+                  }
+                }
+              ]
+            },
+            "id": 24
+          },
+          {
+            "id": 25,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "다행이군.\n 이제 지도에 표시된 지점으로 이동해 다음 지령을 기다리시오."
+              }
+            }
+          },
+          {
+            "message": {
+              "delay": 3000,
+              "txt_const": {
+                "ko": "주변에 누가 뒤쫒는 자는 없는지 항상 살펴보고."
+              }
+            },
+            "id": 26
+          },
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "map_open.mp3",
+              "autoplay": true
+            },
+            "id": 27
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 28
+          },
+          {
+            "button": {
+              "delay": 0,
+              "option": {
+                "ko": "지도 보기"
+              },
+              "action": {
+                "gotoMap": "spot_03"
+              }
+            },
+            "id": 29
+          },
+          {
+            "audio": {
+              "delay": 3000,
+              "sourcelink": "nan/02N.mp3",
+              "autoplay": true
+            },
+            "id": 30
+          }
+        ]
+      },
+      {
+        "title": "기차역",
+        "description": "",
+        "trigger": {
+          "type": {
+            "location": {
+              "latitude": 37.5804929,
+              "longitude": 126.9687866,
+              "range": 10
+            }
+          }
+        },
+        "contents": [
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "nan/03N.mp3",
+              "autoplay": true
+            },
+            "id": 31
+          },
+          {
+            "id": 32,
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "msg_receive.mp3",
+              "autoplay": true
+            }
+          },
+          {
+            "id": 33,
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            }
+          },
+          {
+            "id": 34,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "임무 셋.\n블라지미르, 상해로 가는 요원 니나와 가방을 교환해 주시오.\n가방 교환 장소는 3번 플랫폼 중앙.\n갈색 가방을 들고 서 있는 사람을 찾아 암호구로 신원을 확인한 후에 가방을 교환하시오."
+              }
+            }
+          },
+          {
+            "id": 35,
+            "message": {
+              "delay": 1000,
+              "txt_const": {
+                "ko": "당신의 암호구는 ‘블라지미르’\n상대의 암호구는 ‘니나’\n암호구를 잊지 마시오. ‘블라지미르’ - ‘니나’\n잠깐, 가기 전에 먼저 카메라를 열어 거기 액자 속 그림을 비추어 주시오.\n그 그림이 기차역에서 무엇을 해야할 지 당신에게 보여 줄 것이오."
+              }
+            }
+          },
+          {
+            "button": {
+              "delay": 1000,
+              "option": {
+                "ko": "카메라 열기"
+              },
+              "action": {
+                "gotoCamera": "station"
+              }
+            },
+            "id": 36,
+            "hold": true
+          },
+          {
+            "audio": {
+              "delay": 3000,
+              "sourcelink": "map_open.mp3",
+              "autoplay": true
+            },
+            "id": 37
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 38
+          },
+          {
+            "button": {
+              "delay": 0,
+              "option": {
+                "ko": "지도 보기"
+              },
+              "action": {
+                "gotoMap": "spot_04"
+              }
+            },
+            "id": 39
+          }
+        ]
+      },
+      {
+        "title": "전차 안, 뒤바뀐 가방",
+        "description": "",
+        "trigger": {
+          "type": {
+            "location": {
+              "latitude": 37.5805581,
+              "longitude": 126.9674419,
+              "range": 10
+            }
+          }
+        },
+        "contents": [
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "msg_receive.mp3",
+              "autoplay": true
+            },
+            "id": 40
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 41
+          },
+          {
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "블라지미르,\n 니나가 기차역에서 큰 실수를 했다는군. \n 계획을 다시 세워야 하니 다음 장소로 이동해 대기해 주시오."
+              }
+            },
+            "id": 42
+          },
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "map_open.mp3",
+              "autoplay": true
+            },
+            "id": 43
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 44
+          },
+          {
+            "id": 45,
+            "button": {
+              "delay": 0,
+              "option": {
+                "ko": "지도 보기"
+              },
+              "action": {
+                "gotoMap": "spot_05"
+              }
+            }
+          },
+          {
+            "id": 46,
+            "audio": {
+              "delay": 3000,
+              "sourcelink": "nan/04N.mp3",
+              "autoplay": true
+            }
+          }
+        ]
+      },
+      {
+        "title": "자혜병원",
+        "description": "",
+        "trigger": {
+          "type": {
+            "location": {
+              "latitude": 37.5801716,
+              "longitude": 126.9658372,
+              "range": 10
+            }
+          }
+        },
+        "contents": [
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "msg_receive.mp3",
+              "autoplay": true
+            },
+            "id": 47
+          },
+          {
+            "id": 48,
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            }
+          },
+          {
+            "id": 49,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "블라지미르, 그 자를 잘 뒤쫓고 있소? \n 카메라를 열고 앞에 보이는 액자의 그림을 비추어 보시오.\n 당신이 오기 전 누가 그곳을 들렀는 지 볼 수 있을 것이오."
+              }
+            }
+          },
+          {
+            "id": 50,
+            "audio": {
+              "delay": 2000,
+              "sourcelink": "nan/05N.mp3",
+              "autoplay": true
+            }
+          },
+          {
+            "id": 51,
+            "vibrate": {
+              "delay": 5000,
+              "autoplay": true
+            }
+          },
+          {
+            "id": 52,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "블라지미르, 카메라를 열고 앞에 보이는 액자의 그림을 비추어 보시오.\n 당신이 오기 전 누가 그곳을 들렀는 지 볼 수 있을 것이오."
+              }
+            }
+          },
+          {
+            "button": {
+              "delay": 1000,
+              "option": {
+                "ko": "카메라 열기"
+              },
+              "action": {
+                "gotoCamera": "hospital"
+              }
+            },
+            "id": 53,
+            "hold": true
+          },
+          {
+            "message": {
+              "delay": 35000,
+              "txt_const": {
+                "ko": "그 자를 쫓아가 주시오.\n 신분이 노출되지 않게 조용히 뒤를 밟아야 하오.\n 비둘기처럼 평범하고 눈에 띄지 않게.\n 있는 듯 없는 듯 주변을 서성거려야 한다는 것을 잊지 마시길. "
+              }
+            },
+            "id": 54
+          },
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "map_open.mp3",
+              "autoplay": true
+            },
+            "id": 55
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 56
+          },
+          {
+            "button": {
+              "delay": 0,
+              "option": {
+                "ko": "지도 보기"
+              },
+              "action": {
+                "gotoMap": "spot_06"
+              }
+            },
+            "id": 57
+          }
+        ]
+      },
+      {
+        "title": "한성 부인사진관",
+        "description": "",
+        "trigger": {
+          "type": {
+            "location": {
+              "latitude": 37.5797059,
+              "longitude": 126.9698912,
+              "range": 10
+            }
+          }
+        },
+        "contents": [
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "nan/06N.mp3",
+              "autoplay": true
+            },
+            "id": 58
+          },
+          {
+            "id": 59,
+            "audio": {
+              "delay": 3000,
+              "sourcelink": "msg_receive.mp3",
+              "autoplay": true
+            }
+          },
+          {
+            "id": 60,
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            }
+          },
+          {
+            "id": 61,
+            "message": {
+              "delay": 3000,
+              "txt_const": {
+                "ko": "가방을 가져간 자는 어디로 갔는 지 아시오?\n 니나, 그러니까 난을 도와 그자에게서 가방을 찾아와 주시오."
+              }
+            }
+          },
+          {
+            "id": 62,
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "map_open.mp3",
+              "autoplay": true
+            }
+          },
+          {
+            "id": 63,
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            }
+          },
+          {
+            "id": 64,
+            "button": {
+              "delay": 0,
+              "option": {
+                "ko": "지도 보기"
+              },
+              "action": {
+                "gotoMap": "spot_07"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "담배가게",
+        "description": "",
+        "trigger": {
+          "type": {
+            "location": {
+              "latitude": 37.579133,
+              "longitude": 126.968871,
+              "range": 10
+            }
+          }
+        },
+        "contents": [
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "msg_receive.mp3",
+              "autoplay": true
+            },
+            "id": 65
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 66
+          },
+          {
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "블라지미르\n 시간이 된 것 같소.\n\n 그자가 있는 곳은 휴고... 휴고 다방을 찾아 가 주시오."
+              }
+            },
+            "id": 67
+          },
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "map_open.mp3",
+              "autoplay": true
+            },
+            "id": 68
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 69
+          },
+          {
+            "button": {
+              "delay": 0,
+              "option": {
+                "ko": "지도 보기"
+              },
+              "action": {
+                "gotoMap": "spot_08"
+              }
+            },
+            "id": 70
+          },
+          {
+            "audio": {
+              "delay": 3000,
+              "sourcelink": "nan/07N.mp3",
+              "autoplay": true
+            },
+            "id": 71
+          }
+        ]
+      },
+      {
+        "title": "휴고다방, 재회",
+        "description": "",
+        "trigger": {
+          "type": {
+            "location": {
+              "latitude": 37.5783186,
+              "longitude": 126.9710507,
+              "range": 10
+            }
+          }
+        },
+        "contents": [
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "msg_receive.mp3",
+              "autoplay": true
+            },
+            "id": 72
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 73
+          },
+          {
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "작전명 골루비\n\n 블라지미르...\n 이제 휴고 앞에 당도한 모양이군.\n\n 그럼 다방 안으로 들어가면서 입구에서 암호구를 대시오.\n\n 당신이 '블라지미르'라고 하면 상대는 '니나'라고 할 것이오.\n\n 그러면 그가 가방이 있는 곳으로 안내할 것이오."
+              }
+            },
+            "id": 74
+          },
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "nan/08N.mp3",
+              "autoplay": true
+            },
+            "id": 75
+          }
+        ]
+      },
+      {
+        "title": "새벽 4시",
+        "description": "",
+        "trigger": {
+          "type": {
+            "time": {
+              "delay": 1000
+            }
+          }
+        },
+        "contents": [
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "msg_receive.mp3",
+              "autoplay": true
+            },
+            "id": 76
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 77
+          },
+          {
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "기다리게 해서 미안하오. \n 조금... 급작스러운 일이 일어나서... 내가 좀 정신이 없었소.\n\n 임무 넷. 거기, 병풍 뒤에 라디오 캐비넷이 하나 있다고 하오.\n 그 서랍 안에 니나의 가방이 있다는군.\n 블라지미르, 당신이 지니고 있는 가방과 서랍 안 가방을 교환해 가지고 나오시오."
+              }
+            },
+            "id": 78
+          },
+          {
+            "id": 79,
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "msg_receive.mp3",
+              "autoplay": true
+            }
+          },
+          {
+            "id": 80,
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            }
+          },
+          {
+            "id": 81,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "블라지미르!\n 가방 교환 임무를 완수했다면 '완수'를, 임무를 위해 대기 중이라면 '대기'이라는 메세지를 나에게 보내주시오."
+              }
+            }
+          },
+          {
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "완수",
+                  "action": {
+                    "gotoContent": 91
+                  }
+                },
+                {
+                  "keyword": "대기",
+                  "action": {
+                    "gotoContent": 83
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 85
+                  }
+                }
+              ]
+            },
+            "id": 82
+          },
+          {
+            "id": 83,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "그래? 상황이 시원치 않은 모양이군...\n 가방을 바꾸거든 '완수'라고 알려주시오."
+              }
+            }
+          },
+          {
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "완수",
+                  "action": {
+                    "gotoContent": 91
+                  }
+                },
+                {
+                  "keyword": "대기",
+                  "action": {
+                    "gotoContent": 87
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 89
+                  }
+                }
+              ]
+            },
+            "id": 84
+          },
+          {
+            "id": 85,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "완수 혹은 대기 둘 중에 하나로만 답해 주시오."
+              }
+            }
+          },
+          {
+            "id": 86,
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "완수",
+                  "action": {
+                    "gotoContent": 91
+                  }
+                },
+                {
+                  "keyword": "대기",
+                  "action": {
+                    "gotoContent": 87
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 89
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "오늘 휴고가 붐비는 모양이로군.\n 그래도 실패하면 안되는 일이니 반드시 임무를 '완수'해 주시오."
+              }
+            },
+            "id": 87
+          },
+          {
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "완수",
+                  "action": {
+                    "gotoContent": 91
+                  }
+                },
+                {
+                  "keyword": "대기",
+                  "action": {
+                    "gotoContent": 87
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 89
+                  }
+                }
+              ]
+            },
+            "id": 88
+          },
+          {
+            "id": 89,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "장난치는 거요?\n 완수 혹은 대기 둘 중에 하나만 입력해 주시오.\n 우리는 단순한 답을 좋아한다오."
+              }
+            }
+          },
+          {
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "완수",
+                  "action": {
+                    "gotoContent": {
+                      "gotoContent": 91
+                    }
+                  }
+                },
+                {
+                  "keyword": "대기",
+                  "action": {
+                    "gotoContent": {
+                      "gotoContent": 87
+                    }
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 89
+                  }
+                }
+              ]
+            },
+            "id": 90
+          },
+          {
+            "id": 91,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "정말 수고 많았소.\n 돌고 돌아 드디어 해냈구려!"
+              }
+            }
+          },
+          {
+            "message": {
+              "delay": 3000,
+              "txt_const": {
+                "ko": "니나, 그러니까 난에게서 방금 연락이 왔소.\n 무사히 황해를 건널 수 있게 되었다 하오.\n\n 거기 병풍이 보이시오?\n 카메라를 켜고 병풍의 그림을 왼쪽 끝부터 비추면 난이 떠나는 길을 확인할 수 있을 것이오."
+              }
+            },
+            "id": 92
+          },
+          {
+            "button": {
+              "delay": 3000,
+              "option": {
+                "ko": "카메라 열기"
+              },
+              "action": {
+                "gotoCamera": {
+                  "name": "folding-0"
+                }
+              }
+            },
+            "hold": true,
+            "id": 93
+          },
+          {
+            "message": {
+              "delay": 1000,
+              "txt_const": {
+                "ko": "이제, 마지막 임무.\n당신이 가지고 있는 가방을 열어 보시오.\n가방 안 쪽 문양을 카메라 렌즈로 비추면,\n 그 가방을 전달해야 할 마지막 목적지가 나타날 것이오."
+              }
+            },
+            "id": 94
+          },
+          {
+            "button": {
+              "delay": 3000,
+              "option": {
+                "ko": "카메라 열기"
+              },
+              "action": {
+                "gotoCamera": {
+                  "name": "store"
+                }
+              }
+            },
+            "hold": true,
+            "id": 95
+          },
+          {
+            "message": {
+              "delay": 1000,
+              "txt_const": {
+                "ko": "그렇소.\n 그곳으로 가시오. 오늘의 마지막 임무가 기다리고 있으니."
+              }
+            },
+            "id": 96
+          },
+          {
+            "button": {
+              "delay": 0,
+              "option": {
+                "ko": "지도 보기"
+              },
+              "action": {
+                "gotoMap": "spot_09"
+              }
+            },
+            "id": 97
+          },
+          {
+            "audio": {
+              "delay": 3000,
+              "sourcelink": "nan/09N.mp3",
+              "autoplay": true
+            },
+            "id": 98
+          }
+        ]
+      },
+      {
+        "title": "담배가게, 종착지",
+        "description": "",
+        "trigger": {
+          "type": {
+            "location": {
+              "latitude": 37.579106,
+              "longitude": 126.968978,
+              "range": 10
+            }
+          }
+        },
+        "contents": [
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "msg_receive.mp3",
+              "autoplay": true
+            },
+            "id": 99
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 100
+          },
+          {
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "작전명 골루비\n 종착지에 도착했구려.\n\n 거기, 담배가게 창문이 보이시오?\n 왼 쪽으로 힘을 주어 밀면 창문이 조금 열릴 것이오.\n 가져온 가방을 창문 틈 안의 구멍어 넣어 주시오. \n\n 그곳에 니나의 가방을 전달하는 것이 당신의 마지막 임무요."
+              }
+            },
+            "id": 101
+          },
+          {
+            "message": {
+              "delay": 5000,
+              "txt_const": {
+                "ko": "가방 전달의 임무가 모두 끝나면 '종료' 라는 메세지를 보내주시오."
+              }
+            },
+            "id": 102
+          },
+          {
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "종료",
+                  "action": {
+                    "gotoContent": 108
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 104
+                  }
+                }
+              ]
+            },
+            "id": 103
+          },
+          {
+            "id": 104,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "아직이요?\n 마지막까지 최선을 다 해 주시오."
+              }
+            }
+          },
+          {
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "종료",
+                  "action": {
+                    "gotoContent": 108
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 106
+                  }
+                }
+              ]
+            },
+            "id": 105
+          },
+          {
+            "id": 106,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "이젠 눈치 채지 않았나?\n 내가 원하는대로 답하지 않으면 끝이 나지 않는다는 걸.\n 임무를 다 마쳤으면 '종료'라고 입력해 주시오."
+              }
+            }
+          },
+          {
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "종료",
+                  "action": {
+                    "gotoContent": 108
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 106
+                  }
+                }
+              ]
+            },
+            "id": 107
+          },
+          {
+            "id": 108,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "작전명 비둘기\n 종료.\n 정말 고생 많았소."
+              }
+            }
+          },
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "nan/finale.mp3",
+              "autoplay": true
+            },
+            "id": 109
+          },
+          {
+            "message": {
+              "delay": 41000,
+              "txt_const": {
+                "ko": "이젠 당신의 일상으로 돌아가도 좋소.\n 곧 다시 연락 하겠소. \n 그럼 그 때까지- \n 굿바이."
+              }
+            },
+            "id": 110
+          }
+        ]
+      }
+    ]
+  }
+}
