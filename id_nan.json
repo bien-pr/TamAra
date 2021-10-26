@@ -9,27 +9,27 @@
     "sources": [
       {
         "name": "01_cloud",
-        "sourcelink": "01_cloud.webm",
+        "sourcelink": "01_cloud_vp8.webm",
         "sourcetype": "video"
       },
       {
         "name": "02_grass",
-        "sourcelink": "02_grass.webm",
+        "sourcelink": "02_grass_vp8.webm",
         "sourcetype": "video"
       },
       {
         "name": "03_palm",
-        "sourcelink": "03_palm.webm",
+        "sourcelink": "03_palm_vp8.webm",
         "sourcetype": "video"
       },
       {
         "name": "04_360",
-        "sourcelink": "04_360.webm",
+        "sourcelink": "04_360_vp8.webm",
         "sourcetype": "video"
       },
       {
         "name": "05_moon",
-        "sourcelink": "05_moon.webm",
+        "sourcelink": "05_moon_vp8.webm",
         "sourcetype": "video"
       }
     ],
