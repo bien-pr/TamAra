@@ -420,11 +420,16 @@
         "title": "난과 아버지",
         "description": "",
         "trigger": {
-          "type": {
+          "type": {        
             "location": {
               "latitude": 37.577324,
               "longitude": 126.970962,
               "range": 10
+            },
+                        "beacon": {
+              "uuid": "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0",
+              "minor": 1001,
+              "accuracy": 2
             }
           }
         },
