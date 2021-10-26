@@ -8,39 +8,29 @@
     },
     "sources": [
       {
-        "name": "hospital",
-        "sourcelink": "HospitalResize.mp4",
+        "name": "01_cloud",
+        "sourcelink": "01_cloud.webm",
         "sourcetype": "video"
       },
       {
-        "name": "station",
-        "sourcelink": "StationResize.mp4",
+        "name": "02_grass",
+        "sourcelink": "02_grass.webm",
         "sourcetype": "video"
       },
       {
-        "name": "folding-0",
-        "sourcelink": "1ScreenResize.mp4",
+        "name": "03_palm",
+        "sourcelink": "03_palm.webm",
         "sourcetype": "video"
       },
       {
-        "name": "folding-1",
-        "sourcelink": "2ScreenResize.mp4",
+        "name": "04_360",
+        "sourcelink": "04_360.webm",
         "sourcetype": "video"
       },
       {
-        "name": "folding-2",
-        "sourcelink": "3ScreenResize.mp4",
+        "name": "05_moon",
+        "sourcelink": "05_moon.webm",
         "sourcetype": "video"
-      },
-      {
-        "name": "folding-3",
-        "sourcelink": "4ScreenResize.mp4",
-        "sourcetype": "video"
-      },
-      {
-        "name": "store",
-        "sourcelink": "nanzo",
-        "sourcetype": "bundle"
       }
     ],
     "dialogs": [
