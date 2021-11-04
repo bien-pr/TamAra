@@ -2,9 +2,9 @@
   "data": {
     "file_info": {
       "title": "structure_description",
-      "created_date": "2021.10.27",
+      "created_date": "2021.09.06",
       "description": "test",
-      "version": 24
+      "version": 21
     },
     "sources": [
       {
@@ -39,7 +39,7 @@
       },
       {
         "name": "store",
-        "sourcelink": "tamara",
+        "sourcelink": "nanzo",
         "sourcetype": "bundle"
       }
     ],
@@ -49,8 +49,15 @@
         "description": "intro",
         "trigger": {
           "type": {
-            "time": {
-              "delay": 100
+            "location": {
+              "latitude": 37.53645,
+              "longitude": 126.89726,
+              "range": 10
+            },
+            "beacon": {
+              "uuid": "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0",
+              "minor": 1001,
+              "accuracy": 2
             }
           }
         },
