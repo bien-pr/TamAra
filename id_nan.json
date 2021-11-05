@@ -4,7 +4,7 @@
       "title": "structure_description",
       "created_date": "2021.09.06",
       "description": "test",
-      "version": 22
+      "version": 21
     },
     "sources": [
       {
@@ -39,7 +39,7 @@
       },
       {
         "name": "store",
-        "sourcelink": "tamara",
+        "sourcelink": "nanzo",
         "sourcetype": "bundle"
       }
     ],
@@ -138,7 +138,7 @@
             "beacon": {
               "uuid": "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0",
               "minor": 1001,
-              "accuracy": 0.5
+              "accuracy": 2
             }
           }
         },
@@ -239,7 +239,7 @@
             "beacon": {
               "uuid": "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0",
               "minor": 1001,
-              "accuracy": 0.5
+              "accuracy": 2
             }
           }
         },
@@ -356,7 +356,7 @@
             "beacon": {
               "uuid": "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0",
               "minor": 1001,
-              "accuracy": 0.5
+              "accuracy": 2
             }
           }
         },
@@ -415,7 +415,7 @@
           {
             "audio": {
               "delay": 3000,
-              "sourcelink": "nan/00N.mp3",
+              "sourcelink": "nan/test_001.mp3",
               "autoplay": true
             },
             "id": 6
@@ -436,7 +436,7 @@
             "beacon": {
               "uuid": "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0",
               "minor": 1001,
-              "accuracy": 0.5
+              "accuracy": 2
             }
           }
         },
@@ -496,9 +496,394 @@
             "id": 13,
             "audio": {
               "delay": 3000,
-              "sourcelink": "nan/01N.mp3",
+              "sourcelink": "nan/test_001.mp3",
               "autoplay": true
             }
+          }
+        ]
+      },
+      {
+        "title": "기차역으로 향하는 길",
+        "description": "",
+        "trigger": {
+          "type": {
+            "location": {
+              "latitude": 37.5786847,
+              "longitude": 126.9696701,
+              "range": 10
+            },
+            "beacon": {
+              "uuid": "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0",
+              "minor": 1001,
+              "accuracy": 0.5
+            }
+          }
+        },
+        "contents": [
+          {
+            "audio": {
+              "delay": 500,
+              "sourcelink": "msg_receive.mp3",
+              "autoplay": true
+            },
+            "id": 14
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 15
+          },
+          {
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "작전명 ‘골루비’-"
+              }
+            },
+            "id": 16
+          },
+          {
+            "message": {
+              "delay": 1000,
+              "txt_const": {
+                "ko": "당신을 기다리는 우리 동지 한 명을 만났소? \n 그에게서 가방을 건네 받았으면 ‘성공’ 이라는 메세지를 보내 주시오.\n 만약 가방을 전달 받는 것에 실패하면 ‘실패’라고 알려주고."
+              }
+            },
+            "id": 17
+          },
+          {
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "성공",
+                  "action": {
+                    "gotoContent": 25
+                  }
+                },
+                {
+                  "keyword": "실패",
+                  "action": {
+                    "gotoContent": 19
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 19
+                  }
+                }
+              ]
+            },
+            "id": 18
+          },
+          {
+            "id": 19,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "잠시 그곳에서 대기 하시오. 물건을 전달할 동지가 곧 접선해 올 것이오."
+              }
+            }
+          },
+          {
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "성공",
+                  "action": {
+                    "gotoContent": 25
+                  }
+                },
+                {
+                  "keyword": "실패",
+                  "action": {
+                    "gotoContent": 21
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 23
+                  }
+                }
+              ]
+            },
+            "id": 20
+          },
+          {
+            "id": 21,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "다음 임무를 수행하기 위해서는 반드시 가방을 전달받아야 하오. 가방을 들고 있는 사람을 찾아 보시오.\n 가방을 전달받으면 '성공'을 입력해 주시오."
+              }
+            }
+          },
+          {
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "성공",
+                  "action": {
+                    "gotoContent": 25
+                  }
+                },
+                {
+                  "keyword": "실패",
+                  "action": {
+                    "gotoContent": 21
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 23
+                  }
+                }
+              ]
+            },
+            "id": 22
+          },
+          {
+            "id": 23,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "무슨 소리요? ‘성공’ 이요, 아니면 ‘실패’ 한 거요? 답은 저 두가지 중에 하나로 해 주시오."
+              }
+            }
+          },
+          {
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "성공",
+                  "action": {
+                    "gotoContent": 25
+                  }
+                },
+                {
+                  "keyword": "실패",
+                  "action": {
+                    "gotoContent": 21
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 22
+                  }
+                }
+              ]
+            },
+            "id": 24
+          },
+          {
+            "id": 25,
+            "message": {
+              "delay": 1000,
+              "txt_const": {
+                "ko": "다행이군.\n 이제 지도에 표시된 지점으로 이동해 다음 지령을 기다리시오."
+              }
+            }
+          },
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "map_open.mp3",
+              "autoplay": true
+            },
+            "id": 26
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 27
+          },
+          {
+            "button": {
+              "delay": 0,
+              "option": {
+                "ko": "지도 보기"
+              },
+              "action": {
+                "gotoMap": "spot_03"
+              }
+            },
+            "id": 28
+          },
+          {
+            "audio": {
+              "delay": 3000,
+              "sourcelink": "zo/02Z.mp3",
+              "autoplay": true
+            },
+            "id": 29
+          }
+        ]
+      },
+      {
+        "title": "담배가게, 종착지",
+        "description": "",
+        "trigger": {
+          "type": {
+            "location": {
+              "latitude": 37.579106,
+              "longitude": 126.968978,
+              "range": 10
+            },
+            "beacon": {
+              "uuid": "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0",
+              "minor": 1001,
+              "accuracy": 0.5
+            }
+          }
+        },
+        "contents": [
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "msg_receive.mp3",
+              "autoplay": true
+            },
+            "id": 96
+          },
+          {
+            "vibrate": {
+              "delay": 0,
+              "autoplay": true
+            },
+            "id": 97
+          },
+          {
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "작전명 골루비\n 종착지에 도착했구려.\n\n 거기, 담배가게 창문이 보이시오?\n 왼 쪽으로 힘을 주어 밀면 창문이 조금 열릴 것이오.\n 가져온 가방을 창문 틈 안의 구멍어 넣어 주시오. \n\n 그곳에 니나의 가방을 전달하는 것이 당신의 마지막 임무요."
+              }
+            },
+            "id": 98
+          },
+          {
+            "message": {
+              "delay": 5000,
+              "txt_const": {
+                "ko": "가방 전달의 임무가 모두 끝나면 '종료' 라는 메세지를 보내주시오."
+              }
+            },
+            "id": 99
+          },
+          {
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "종료",
+                  "action": {
+                    "gotoContent": 105
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 101
+                  }
+                }
+              ]
+            },
+            "id": 100
+          },
+          {
+            "id": 101,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "아직이요?\n 마지막까지 최선을 다 해 주시오."
+              }
+            }
+          },
+          {
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "종료",
+                  "action": {
+                    "gotoContent": 105
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 103
+                  }
+                }
+              ]
+            },
+            "id": 102
+          },
+          {
+            "id": 103,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "이젠 눈치 채지 않았나?\n 내가 원하는대로 답하지 않으면 끝이 나지 않는다는 걸.\n 임무를 다 마쳤으면 '종료'라고 입력해 주시오."
+              }
+            }
+          },
+          {
+            "input": {
+              "delay": 1000,
+              "options": [
+                {
+                  "keyword": "종료",
+                  "action": {
+                    "gotoContent": 105
+                  }
+                },
+                {
+                  "keyword": "nonMatched",
+                  "action": {
+                    "gotoContent": 103
+                  }
+                }
+              ]
+            },
+            "id": 104
+          },
+          {
+            "id": 105,
+            "message": {
+              "delay": 0,
+              "txt_const": {
+                "ko": "작전명 비둘기\n 종료.\n 정말 고생 많았소."
+              }
+            }
+          },
+          {
+            "audio": {
+              "delay": 1000,
+              "sourcelink": "nan/test_001.mp3",
+              "autoplay": true
+            },
+            "id": 106
+          },
+          {
+            "message": {
+              "delay": 41000,
+              "txt_const": {
+                "ko": "이젠 당신의 일상으로 돌아가도 좋소.\n 곧 다시 연락 하겠소. \n 그럼 그 때까지- \n 굿바이."
+              }
+            },
+            "id": 107
           }
         ]
       }
