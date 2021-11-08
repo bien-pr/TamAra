@@ -8,38 +8,8 @@
     },
     "sources": [
       {
-        "name": "hospital",
-        "sourcelink": "HospitalResize.mp4",
-        "sourcetype": "video"
-      },
-      {
-        "name": "station",
-        "sourcelink": "StationResize.mp4",
-        "sourcetype": "video"
-      },
-      {
-        "name": "folding-0",
-        "sourcelink": "1ScreenResize.mp4",
-        "sourcetype": "video"
-      },
-      {
-        "name": "folding-1",
-        "sourcelink": "2ScreenResize.mp4",
-        "sourcetype": "video"
-      },
-      {
-        "name": "folding-2",
-        "sourcelink": "3ScreenResize.mp4",
-        "sourcetype": "video"
-      },
-      {
-        "name": "folding-3",
-        "sourcelink": "4ScreenResize.mp4",
-        "sourcetype": "video"
-      },
-      {
         "name": "store",
-        "sourcelink": "nanzo",
+        "sourcelink": "tamara",
         "sourcetype": "bundle"
       }
     ],
