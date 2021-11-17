@@ -20,8 +20,8 @@
         "trigger": {
           "type": {
             "location": {
-              "latitude": 37.53645,
-              "longitude": 126.89726,
+              "latitude": 37.5786847,
+              "longitude": 126.9696701,
               "range": 10
             },
             "beacon": {
@@ -101,8 +101,8 @@
         "trigger": {
           "type": {
             "location": {
-              "latitude": 37.5804929,
-              "longitude": 126.9687866,
+              "latitude": 37.5786847,
+              "longitude": 126.9696701,
               "range": 10
             },
             "beacon": {
@@ -202,8 +202,8 @@
         "trigger": {
           "type": {
             "location": {
-              "latitude": 37.53645,
-              "longitude": 126.89726,
+              "latitude": 37.5786847,
+              "longitude": 126.9696701,
               "range": 10
             },
             "beacon": {
@@ -319,8 +319,8 @@
         "trigger": {
           "type": {
             "location": {
-              "latitude": 37.536398,
-              "longitude": 126.8973,
+              "latitude": 37.5786847,
+              "longitude": 126.9696701,
               "range": 10
             },
             "beacon": {
@@ -399,8 +399,8 @@
         "trigger": {
           "type": {
             "location": {
-              "latitude": 37.577324,
-              "longitude": 126.970962,
+              "latitude": 37.5786847,
+              "longitude": 126.9696701,
               "range": 10
             },
             "beacon": {
@@ -706,8 +706,8 @@
         "trigger": {
           "type": {
             "location": {
-              "latitude": 37.579106,
-              "longitude": 126.968978,
+              "latitude": 37.5786847,
+              "longitude": 126.9696701,
               "range": 10
             },
             "beacon": {
