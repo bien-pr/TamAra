@@ -4,7 +4,7 @@
       "title": "structure_description",
       "created_date": "2021.09.06",
       "description": "test",
-      "version": 21
+      "version": 2
     },
     "sources": [
       {
@@ -76,7 +76,7 @@
             "button": {
               "delay": 0,
               "option": {
-                "ko": "지도 보기"
+                "ko": "map"
               },
               "action": {
                 "gotoMap": "spot_01"
@@ -158,7 +158,7 @@
             "button": {
               "delay": 1000,
               "option": {
-                "ko": "이미지 360"
+                "ko": "camera"
               },
               "action": {
                 "goto360Image": "test"
@@ -186,7 +186,7 @@
             "button": {
               "delay": 0,
               "option": {
-                "ko": "지도 보기"
+                "ko": "map"
               },
               "action": {
                 "gotoMap": "spot_04"
@@ -267,7 +267,7 @@
             "button": {
               "delay": 1000,
               "option": {
-                "ko": "카메라 열기"
+                "ko": "camera"
               },
               "action": {
                 "gotoCamera": "hospital"
@@ -303,7 +303,7 @@
             "button": {
               "delay": 0,
               "option": {
-                "ko": "지도 보기"
+                "ko": "map"
               },
               "action": {
                 "gotoMap": "spot_06"
@@ -374,7 +374,7 @@
             "button": {
               "delay": 0,
               "option": {
-                "ko": "지도 보기"
+                "ko": "map"
               },
               "action": {
                 "gotoMap": "spot_01"
@@ -455,7 +455,7 @@
             "button": {
               "delay": 0,
               "option": {
-                "ko": "지도 보기"
+                "ko": "map"
               },
               "action": {
                 "gotoMap": "spot_02"
@@ -682,7 +682,7 @@
             "button": {
               "delay": 0,
               "option": {
-                "ko": "지도 보기"
+                "ko": "map"
               },
               "action": {
                 "gotoMap": "spot_03"
